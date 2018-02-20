@@ -1,0 +1,11 @@
+theme: minima
+baseurl: /met
+title: MET Blog
+plugins:
+  - jekyll-feed
+minima:
+  date_format: "%-d %B %Y"
+description: Building the best Mars Rover for <a href="http://piwars.org/">Pi Wars 2018</a>!
+email: "pdenes (at) codingafter9.com"
+header_pages:
+  - about.md

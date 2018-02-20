@@ -1,0 +1,67 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+    background-color: white;
+}
+
+main.page-content {
+    padding-left: 200px;
+}
+
+.wrapper {
+    margin-left: 0px;
+    max-width: 100%;
+}
+
+.page-content {
+    display: flex;
+}
+
+.sidebar {
+    border-left: 1px solid #c8c8c8;
+    padding-right: 30px;
+    padding-left: 30px;
+    min-width: 15em;
+}
+
+.footer-col {
+    padding-right: 15px;
+    p {
+        margin-bottom: 0px;
+    }
+    &:not(:last-child) {
+        border-right: 1px solid #c8c8c8;
+    }
+}
+
+.site-footer {
+    border-top: 1px solid #c8c8c8;
+}
+.site-header {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+article {
+    img, video {
+        border: 1px solid gray;
+    }
+}
+
+img.left {
+    float: left;
+    margin-right: 1em;
+}
+
+img.right {
+    float: right;
+    margin-left: 1em;
+}
+
+div.divider {
+    clear: both;
+    margin-bottom: 1em;
+}
