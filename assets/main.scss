@@ -8,8 +8,18 @@ body {
     background-color: white;
 }
 
+a { color: #b13800; text-decoration: none; }
+a:visited { color: #b13800; }
+a:hover { color: #f13800; text-decoration: underline; }
+.social-media-list a:hover { text-decoration: none; }
+.social-media-list a:hover .username { text-decoration: underline; }
+
 main.page-content {
     padding-left: 200px;
+}
+
+.site-header {
+    border-top: 5px solid #b13800;
 }
 
 .wrapper {
@@ -61,7 +71,12 @@ img.right {
     margin-left: 1em;
 }
 
+img.half {
+    max-width: 50%;
+}
+
 div.divider {
     clear: both;
     margin-bottom: 1em;
 }
+

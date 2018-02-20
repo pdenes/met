@@ -2,6 +2,8 @@
 title: About MET
 ---
 
+<img class="right half" src="{{ "/assets/profile_m.jpg" | absolute_url }}" alt="The Team"/>
+
 We are building the best Mars Rover for [Pi Wars 2018](http://piwars.org/), a competition for Raspberry Pi-controlled robots.
 
 The **Mars Exploration Team (MET)** has the ultimate goal of sending robotic missions to Mars – if everything goes according to plan.
@@ -10,7 +12,7 @@ Our team consists of an 11-year-old spacecraft designer and his software develop
 
 We are highly motivated and have ambitious plans but we try to set realistic short-term goals (not trying to attempt any real Mars exploration before thorough Earth-bound testing).
 
-As we haven’t actually built a working robot yet, we can be classified as beginners. Our slight lack of practical experience however is offset by our enthusiasm and many years of thinking about “finally building that robot we always wanted to do” while accumulating lots of really useful robot parts.
+As we haven’t actually built a working robot before, we can be classified as beginners. Our slight lack of practical experience however is offset by our enthusiasm and many years of thinking about “finally building that robot we always wanted to do” while accumulating lots of really useful robot parts.
 
 ## Why?
 
