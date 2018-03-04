@@ -14,8 +14,14 @@ a:hover { color: #f13800; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
-main.page-content {
-    padding-left: 200px;
+video {
+    width: 100%
+}
+
+@media screen and (min-width: 1200px) {
+    main.page-content {
+        padding-left: 200px;
+    }
 }
 
 .site-header {
@@ -27,8 +33,10 @@ main.page-content {
     max-width: 100%;
 }
 
-.page-content {
-    display: flex;
+@media screen and (min-width: 1024px) {
+    .page-content {
+        display: flex;
+    }
 }
 
 .sidebar {
@@ -36,6 +44,10 @@ main.page-content {
     padding-right: 30px;
     padding-left: 30px;
     min-width: 15em;
+    @media screen and (max-width: 1024px) {
+        padding-top: 1em;
+        border-top: 1px solid #c8c8c8;
+    }
 }
 
 .footer-col {

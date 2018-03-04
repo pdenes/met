@@ -15,7 +15,7 @@ The new MRV0.2 (the second [“quick prototype”]({{ site.baseurl }}{% post_url
 Despite its imperfections, this new prototype allowed us to start developing more sophisticated motor and servo control. Figuring out how to turn smoothly and using different methods (e.g. rotate in place, change direction while moving without turning the body, or turning like a car, etc.) will be a fun challenge!
 
 <p>
-<video controls style="width:640px;height:360px;">
+<video controls>
     <source src="{{ "/assets/2018-02-23/video3.webm" | absolute_url }}" type="video/webm"/>
     <source src="{{ "/assets/2018-02-23/video3.mp4" | absolute_url }}" type="video/mp4">
 </video>

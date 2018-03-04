@@ -7,7 +7,7 @@ excerpt: After the first quick “pre-prototype” build our plan was to build a
 
 <img src="{{ "/assets/2018-02-22/motor_holder_s.png" | absolute_url }}" class="left"/> After the first quick [“pre-prototype”]({{ site.baseurl }}{% post_url 2018-02-20-first-steps %}) build, our plan was to build a more robust second prototype and use it for experimenting with the basic mechanisms and control and gradually improve it.
 
-We were planning to use Lego Technic to quickly build the structure, with a few custom 3D-printed parts to attach the various non-Lego components (motors, circuit boards, bower bank). The idea was that this would allow us to quickly change things as we experiment and gradually replace the Lego parts as the final design emerges.
+We were planning to use Lego Technic to quickly build the structure, with a few custom 3D-printed parts to attach the various non-Lego components (motors, circuit boards, power bank). The idea was that this would allow us to quickly change things as we experiment and gradually replace the Lego parts as the final design emerges.
 
 It’s just Lego, so how hard can it be…?
 
@@ -23,7 +23,7 @@ These “few custom 3D-printed parts” were not so easy to make. The dimensions
 So the “quick second Lego prototype” phase turned out to be countless hours (but a lot of fun!) spent with [OpenSCAD](http://www.openscad.org/), many more hours printing parts that won’t fit and many attempts to make the whole thing robust enough. Finally we ended up with a lot of custom Lego-compatible elements with only a very few actual original Lego parts!
 
 <p>
-<video controls style="width:640px;height:360px;">
+<video controls>
     <source src="{{ "/assets/2018-02-22/video2.webm" | absolute_url }}" type="video/webm"/>
     <source src="{{ "/assets/2018-02-22/video2.mp4" | absolute_url }}" type="video/mp4">
 </video>

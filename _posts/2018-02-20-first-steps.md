@@ -25,7 +25,7 @@ We also did some tests with streaming video from an attached camera and found th
 
 Once we were satisfied that it was working, we took the whole thing apart, hoping to move on to the next stage quickly and start building the “real” version. But before this we also took some spectacular videos (next time we should really have better lighting)!
 
-<video controls style="width:640px;height:360px;">
+<video controls>
     <source src="{{ "/assets/2018-02-20/video1.webm" | absolute_url }}" type="video/webm"/>
     <source src="{{ "/assets/2018-02-20/video1.mp4" | absolute_url }}" type="video/mp4">
 </video>
